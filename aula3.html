@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Aula java Script</title>
+    </Head>
+    <body>
+        <script src="app.js">
+            jana
+        </script>
+        <p id="teste">Ola amigo</p>
+        <button id="btn" style="background-color:green;">Botao verde</button>
+        <script>
+            let nome= "Janaina"
+            let quantidade = 2 +3;
+
+            console.log(nome,quantidade);
+
+            document.getElementById('teste').innerHTML = "ola, mundo";
+            document.getElementById('teste').style.color='red'
+
+            document.getElementById('teste').setAttribute('style','color:blue')
+            
+
+            let btn= document.getElementById('btn');
+
+            btn.addEventListener('click', mudaCorFundo);
+
+            function mudaCorFundo(){
+                if(btn.style.backgroundColor === "green"){
+                    btn.innerHTML= "Botao vermelho";
+                    btn.style.backgroundColor= "red";
+
+                }
+                else{
+                    btn.innerHTML="Botao verde";
+                    btn.style.backgroundColor = "green";
+                }
+            }
+        </script>
+
+        
+        
+    </body>
+</html>

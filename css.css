@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    color: rgb(160, 25, 99);
+    margin: auto;
+}
+
+img{
+    width: 320;
+    weight: 205;
+}
+
+
+div{
+    background-color: firebrick;
+    page-break-after: 10 px;
+    color: floralwhite;
+    text-align: center;
+}
+.teste{
+    text-align: justify;
+    background-color: goldenrod;
+    padding: 20px;
+    align-items: center;
+}
+.img {
+    text-align: center;
+    align-items: center;
+  }
